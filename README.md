@@ -48,13 +48,13 @@ package.json: Contains project metadata and dependencies.
 
 *Available Routes*
 
-GET /: Renders the main TODO page.
-GET /help: Renders the help page.
-GET /contact: Renders the contact page.
-GET /tasks: Serves a static HTML file for tasks.
-GET /api/tasks: Retrieves all tasks.
-POST /api/tasks: Creates a new task.
-GET /api/tasks/:id: Retrieves a specific task by ID.
-PUT /api/tasks/:id: Updates a specific task by ID.
-DELETE /api/tasks/:id: Deletes a specific task by ID.
+    -GET /: Renders the main TODO page.
+    -GET /help: Renders the help page.
+    -GET /contact: Renders the contact page.
+    -GET /tasks: Serves a static HTML file for tasks.
+    -GET /api/tasks: Retrieves all tasks.
+    -POST /api/tasks: Creates a new task.
+    -GET /api/tasks/:id: Retrieves a specific task by ID.
+    -PUT /api/tasks/:id: Updates a specific task by ID.
+    -DELETE /api/tasks/:id: Deletes a specific task by ID.
 
